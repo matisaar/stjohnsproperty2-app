@@ -5,22 +5,22 @@
 }
 
 :root {
-  --bg: #0f1117;
-  --surface: #181a20;
-  --surface2: #1e2028;
-  --border: #2a2d37;
-  --border-light: #33363f;
-  --text: #e4e6eb;
-  --text-secondary: #9ca3b0;
-  --text-muted: #626980;
-  --accent: #3b82f6;
-  --accent-dim: #2563eb;
-  --green: #22c55e;
-  --green-bg: rgba(34,197,94,0.08);
-  --red: #ef4444;
-  --red-bg: rgba(239,68,68,0.08);
-  --yellow: #eab308;
-  --yellow-bg: rgba(234,179,8,0.08);
+  --bg: #f8f9fb;
+  --surface: #ffffff;
+  --surface2: #f3f4f6;
+  --border: #e2e5ea;
+  --border-light: #d1d5db;
+  --text: #1a1d26;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --accent: #2563eb;
+  --accent-dim: #1d4ed8;
+  --green: #16a34a;
+  --green-bg: rgba(22,163,74,0.08);
+  --red: #dc2626;
+  --red-bg: rgba(220,38,38,0.08);
+  --yellow: #ca8a04;
+  --yellow-bg: rgba(202,138,4,0.08);
   --radius: 12px;
   --radius-sm: 8px;
 }
@@ -78,7 +78,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .header-title {
   font-size: 28px;
   font-weight: 800;
-  color: #fff;
+  color: var(--text);
   letter-spacing: -0.5px;
 }
 .header-sub {
@@ -185,7 +185,7 @@ input[type="number"]::-webkit-outer-spin-button {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(42,45,55,0.5);
+  border-bottom: 1px solid var(--border);
   gap: 12px;
 }
 .input-row:last-child { border-bottom: none; }
@@ -238,7 +238,7 @@ input[type="number"]::-webkit-outer-spin-button {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(42,45,55,0.5);
+  border-bottom: 1px solid var(--border);
   gap: 12px;
 }
 .result-row:last-child { border-bottom: none; }
@@ -279,12 +279,12 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 9px 8px;
   font-family: 'JetBrains Mono', monospace;
   text-align: right;
-  border-bottom: 1px solid rgba(42,45,55,0.4);
+  border-bottom: 1px solid var(--border);
 }
 .sens-table td:first-child { text-align: left; }
 .sens-table tr:last-child td { border-bottom: none; }
 .sens-table .active-row {
-  background: rgba(59,130,246,0.06);
+  background: rgba(37,99,235,0.06);
 }
 .sens-table .active-row td {
   color: var(--accent);
