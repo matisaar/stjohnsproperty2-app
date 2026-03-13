@@ -293,6 +293,7 @@ export default function Calculator() {
         <h1 className="header-title">23 Hamel St, St. John&apos;s, NL</h1>
         <div className="header-sub">5-Bed Conversion &middot; Single Dwelling &middot; 1,716 sqft &middot; Built 1949 &middot; Rabbittown near MUN</div>
         <div className="header-sub">3 bedrooms upstairs (existing windows) + 2 bedrooms in basement (egress windows needed)</div>
+        <a className="header-link" href="https://www.redfin.ca/nl/st-john-s/23-Hamel-St-A1C-5A3/home/158595475" target="_blank" rel="noopener noreferrer">View Listing on Redfin &rarr;</a>
         <div className="header-sync">
           <span className="sync-dot" style={{ background: syncColors[syncStatus] }} />
           <span>
@@ -301,6 +302,12 @@ export default function Calculator() {
             {lastSaved && !saving && ` \u00b7 Last edit ${new Date(lastSaved).toLocaleString()}`}
           </span>
         </div>
+      </div>
+
+      <div className="photo-gallery">
+        <img src="/photos/photo1.png" alt="23 Hamel St - Front" />
+        <img src="/photos/photo2.png" alt="23 Hamel St - Interior" />
+        <img src="/photos/photo3.png" alt="23 Hamel St - Detail" />
       </div>
 
       <div className="metrics-grid">
