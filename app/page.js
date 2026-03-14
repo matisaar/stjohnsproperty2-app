@@ -2,23 +2,23 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 
 const defaultInputs = {
-  purchasePrice: 250000,
+  purchasePrice: 279000,
   downPaymentPct: 20,
   closingCostPct: 3,
-  mortgageRate: 4.5,
+  mortgageRate: 5,
   amortYears: 25,
   egressWindows: 8000,
   partitionWalls: 3000,
   basementCosmetic: 1500,
   permits: 500,
   contingencyPct: 15,
-  numRooms: 5,
-  rentPerRoom: 600,
+  numRooms: 6,
+  rentPerRoom: 650,
   vacancyPct: 5,
-  propertyTaxAnnual: 2965,
+  propertyTaxAnnual: 2361,
   insurance: 150,
   utilities: 700,
-  maintenance: 200,
+  maintenance: 100,
   pmPct: 10,
 };
 
